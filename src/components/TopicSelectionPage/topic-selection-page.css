@@ -1,0 +1,61 @@
+.body{
+
+}
+
+.body .topic-selection-body .container {
+  text-align: center;
+
+}
+
+.topic{
+  background: lightblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  width:70%;
+  height:80px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display:table;
+}
+.selected-topic{
+  background: olivedrab;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  width:70%;
+  height:80px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display:table;
+}
+
+.topic p{
+  margin: 0;
+  height:100%;
+  text-align: center;
+  line-height: 58px;
+  width:70%;
+  display: table-cell;
+  padding-left:15px;
+  padding-right:15px;
+}
+.selected-topic p{
+  margin: 0;
+  height:100%;
+  text-align: center;
+  line-height: 58px;
+  width:70%;
+  display: table-cell;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.next-btn{
+  /* float: right; */
+  margin: auto;
+}
